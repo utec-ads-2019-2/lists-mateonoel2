@@ -2,7 +2,7 @@
 #define LINKED_H
 
 #include "list.h"
-#include "iterators/bidirectional_iterator.h"
+#include "bidirectional_iterator.h"
 
 template <typename T>
 class LinkedList : public List<T> {
@@ -10,51 +10,112 @@ class LinkedList : public List<T> {
         LinkedList() : List<T>() {}
 
         T front() {
-            // TODO
+            return this->head->data;
         }
 
         T back() {
-            // TODO
+            return this->tail->data;
         }
 
         void push_front(T value) {
-            // TODO
+            auto node = new Node<T>;
+            node->data = value;
+            if(this->head!=nullptr){
+                node->next = this->head;
+                this->head = node;
+                node->next->prev = node;
+            }
+            else{
+                this->head = node;
+                this->tail = node;
+            }
+            this->nodes++;
         }
 
         void push_back(T value) {
-            // TODO
+            auto node = new Node<T>;
+            node->data = value;
+            if(this->head!=nullptr){
+                node->prev = this->tail;
+                this->tail = node;
+                node->prev->next = node;
+            }
+            else{
+                this->head = node;
+                this->tail = node;
+            }
+            this->nodes++;
         }
 
         void pop_front() {
-            // TODO
+            auto temp = this->head;
+            if(this->head->next != nullptr){
+                this->head = this->head->next;
+            }
+            delete temp;
+            this->nodes--;
         }
 
         void pop_back() {
-            // TODO
+            auto temp = this->tail;
+            if(this->tail->prev != nullptr){
+                this->tail = this->tail->prev;
+            }
+            delete temp;
+            this->nodes--;
         }
 
         T operator[](int index) {
-            // TODO
+            if(index<size()){
+                auto temp = this->head;
+                for(int i=0; i<index; i++){
+                    temp = temp->next;
+                }
+                return temp->data;
+            }
         }
 
         bool empty() {
-            // TODO
+            return this->nodes==0;
         }
 
         int size() {
-            // TODO
+            return this->nodes;
         }
 
         void clear() {
-            // TODO
+            while(this->nodes != 0){
+                pop_front();
+            }
         }
 
         void sort() {
-            // TODO
+            auto node = this->head->next;
+            auto node2 = node;
+            for(int i = 1; i<size(); i++){
+                for(int j = i; j>0; j--){
+                    if(node->data < node->prev->data){
+                        T dataTemp = node->data;
+                        node->data = node->prev->data;
+                        node->prev->data = dataTemp;
+                    }
+                    node=node->prev;
+                }
+                node2 = node2->next;
+                node = node2;
+            }
         }
     
         void reverse() {
-            // TODO
+            auto node1 = this->head;
+            auto node2 = this->tail;
+            for(int i=0; i<size()/2; i++){
+                T dataTemp = node1->data;
+                node1->data = node2->data;
+                node2->data = dataTemp;
+                node1=node1->next;
+                node2=node2->prev;
+            }
         }
 
         string name() {
@@ -62,15 +123,17 @@ class LinkedList : public List<T> {
         }
 
         BidirectionalIterator<T> begin() {
-            // TODO
+            return BidirectionalIterator<T> (this->head);
         }
 
 	    BidirectionalIterator<T> end() {
-            // TODO
+            return BidirectionalIterator<T> (this->tail->next);
         }
 
         void merge(LinkedList<T> list) {
-            // TODO
+            for(int i=0;i<list.size();i++){
+                this->push_back(list[i]);
+            }
         }
 };
 

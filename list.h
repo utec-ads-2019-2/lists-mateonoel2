@@ -28,7 +28,14 @@ class List {
         virtual string name() = 0;
 
         ~List() {
-            // TODO
+            auto temp = this->head;
+            for(int i = 0; i<this->nodes; i++){
+                auto x = temp;
+                if(x!= nullptr){
+                    temp=temp->next;
+                    delete x;
+                }
+            }
         }
 };
 
