@@ -1,7 +1,7 @@
 #ifndef FORWARD_ITERATOR_H
 #define FORWARD_ITERATOR_H
 
-#include "iterator.h"
+#include "../iterator.h"
 
 template <typename T> 
 class ForwardIterator : public Iterator<T> {
@@ -29,7 +29,7 @@ class ForwardIterator : public Iterator<T> {
             if(this->current!= nullptr){
                 return this->current->data;
             }
-            throw out_of_range("List is empty");
+            throw out_of_range("Empty");
         }
 };
 

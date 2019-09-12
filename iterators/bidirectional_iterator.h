@@ -1,7 +1,7 @@
 #ifndef BIDIRECTIONAL_ITERATOR_H
 #define BIDIRECTIONAL_ITERATOR_H
 
-#include "iterator.h"
+#include "../iterator.h"
 
 template <typename T> 
 class BidirectionalIterator : public Iterator<T> {
@@ -36,7 +36,7 @@ class BidirectionalIterator : public Iterator<T> {
             if(this->current!= nullptr){
                 return this->current->data;
             }
-            throw out_of_range("List is empty");
+            throw out_of_range("Empty");
         }
 };
 

@@ -2,7 +2,7 @@
 #define FORWARD_H
 
 #include "list.h"
-#include "forward_iterator.h"
+#include "iterators/forward_iterator.h"
 
 template <typename T>
 class ForwardList : public List<T> {

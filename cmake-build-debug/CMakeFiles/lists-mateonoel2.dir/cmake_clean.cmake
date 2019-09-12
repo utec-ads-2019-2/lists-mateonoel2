@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lists-mateonoel2.dir/main.cpp.o"
-  "CMakeFiles/lists-mateonoel2.dir/tester.cpp.o"
-  "CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o"
+  "CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o"
+  "CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o"
   "lists-mateonoel2.pdb"
   "lists-mateonoel2"
 )

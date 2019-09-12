@@ -44,6 +44,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/."/>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/iterators"/>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/mock"/>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/test"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -66,6 +70,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/."/>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/iterators"/>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/mock"/>
+					<Add directory="/Users/m.noel/Desktop/lists-mateonoel2/test"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
@@ -82,19 +90,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/bidirectional_iterator.h">
-			<Option target="lists-mateonoel2"/>
-		</Unit>
 		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/circular.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
 		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/forward.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/forward_iterator.h">
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/iterator.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/iterator.h">
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/iterators/bidirectional_iterator.h">
+			<Option target="lists-mateonoel2"/>
+		</Unit>
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/iterators/forward_iterator.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
 		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/linked.h">
@@ -106,19 +114,19 @@
 		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/main.cpp">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/mocker.cpp">
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.cpp">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/mocker.h">
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
 		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/node.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/tester.cpp">
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/test/tester.cpp">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
-		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/tester.h">
+		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/test/tester.h">
 			<Option target="lists-mateonoel2"/>
 		</Unit>
 		<Unit filename="/Users/m.noel/Desktop/lists-mateonoel2/CMakeLists.txt">

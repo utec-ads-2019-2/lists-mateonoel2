@@ -70,44 +70,44 @@ CMakeFiles/lists-mateonoel2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-mateonoel2.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/m.noel/Desktop/lists-mateonoel2/main.cpp -o CMakeFiles/lists-mateonoel2.dir/main.cpp.s
 
-CMakeFiles/lists-mateonoel2.dir/tester.cpp.o: CMakeFiles/lists-mateonoel2.dir/flags.make
-CMakeFiles/lists-mateonoel2.dir/tester.cpp.o: ../tester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lists-mateonoel2.dir/tester.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lists-mateonoel2.dir/tester.cpp.o -c /Users/m.noel/Desktop/lists-mateonoel2/tester.cpp
+CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o: CMakeFiles/lists-mateonoel2.dir/flags.make
+CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o: ../test/tester.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o -c /Users/m.noel/Desktop/lists-mateonoel2/test/tester.cpp
 
-CMakeFiles/lists-mateonoel2.dir/tester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lists-mateonoel2.dir/tester.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/m.noel/Desktop/lists-mateonoel2/tester.cpp > CMakeFiles/lists-mateonoel2.dir/tester.cpp.i
+CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/m.noel/Desktop/lists-mateonoel2/test/tester.cpp > CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.i
 
-CMakeFiles/lists-mateonoel2.dir/tester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-mateonoel2.dir/tester.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/m.noel/Desktop/lists-mateonoel2/tester.cpp -o CMakeFiles/lists-mateonoel2.dir/tester.cpp.s
+CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/m.noel/Desktop/lists-mateonoel2/test/tester.cpp -o CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.s
 
-CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o: CMakeFiles/lists-mateonoel2.dir/flags.make
-CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o: ../mocker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o -c /Users/m.noel/Desktop/lists-mateonoel2/mocker.cpp
+CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o: CMakeFiles/lists-mateonoel2.dir/flags.make
+CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o: ../mock/mocker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o -c /Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.cpp
 
-CMakeFiles/lists-mateonoel2.dir/mocker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lists-mateonoel2.dir/mocker.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/m.noel/Desktop/lists-mateonoel2/mocker.cpp > CMakeFiles/lists-mateonoel2.dir/mocker.cpp.i
+CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.cpp > CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.i
 
-CMakeFiles/lists-mateonoel2.dir/mocker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-mateonoel2.dir/mocker.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/m.noel/Desktop/lists-mateonoel2/mocker.cpp -o CMakeFiles/lists-mateonoel2.dir/mocker.cpp.s
+CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.cpp -o CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.s
 
 # Object files for target lists-mateonoel2
 lists__mateonoel2_OBJECTS = \
 "CMakeFiles/lists-mateonoel2.dir/main.cpp.o" \
-"CMakeFiles/lists-mateonoel2.dir/tester.cpp.o" \
-"CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o"
+"CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o" \
+"CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o"
 
 # External object files for target lists-mateonoel2
 lists__mateonoel2_EXTERNAL_OBJECTS =
 
 lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/main.cpp.o
-lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/tester.cpp.o
-lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o
+lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o
+lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o
 lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/build.make
 lists-mateonoel2: CMakeFiles/lists-mateonoel2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lists-mateonoel2"

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/m.noel/Desktop/lists-mateonoel2/bidirectional_iterator.h
-iterator.h
-/Users/m.noel/Desktop/lists-mateonoel2/iterator.h
-
 /Users/m.noel/Desktop/lists-mateonoel2/circular.h
 list.h
 /Users/m.noel/Desktop/lists-mateonoel2/list.h
@@ -17,34 +13,32 @@ list.h
 /Users/m.noel/Desktop/lists-mateonoel2/forward.h
 list.h
 /Users/m.noel/Desktop/lists-mateonoel2/list.h
-forward_iterator.h
-/Users/m.noel/Desktop/lists-mateonoel2/forward_iterator.h
-
-/Users/m.noel/Desktop/lists-mateonoel2/forward_iterator.h
-iterator.h
-/Users/m.noel/Desktop/lists-mateonoel2/iterator.h
+iterators/forward_iterator.h
+/Users/m.noel/Desktop/lists-mateonoel2/iterators/forward_iterator.h
 
 /Users/m.noel/Desktop/lists-mateonoel2/iterator.h
 node.h
 /Users/m.noel/Desktop/lists-mateonoel2/node.h
+
+/Users/m.noel/Desktop/lists-mateonoel2/iterators/bidirectional_iterator.h
+../iterator.h
+/Users/m.noel/Desktop/lists-mateonoel2/iterator.h
+
+/Users/m.noel/Desktop/lists-mateonoel2/iterators/forward_iterator.h
+../iterator.h
+/Users/m.noel/Desktop/lists-mateonoel2/iterator.h
 
 /Users/m.noel/Desktop/lists-mateonoel2/linked.h
 list.h
 /Users/m.noel/Desktop/lists-mateonoel2/list.h
-bidirectional_iterator.h
-/Users/m.noel/Desktop/lists-mateonoel2/bidirectional_iterator.h
+iterators/bidirectional_iterator.h
+/Users/m.noel/Desktop/lists-mateonoel2/iterators/bidirectional_iterator.h
 
 /Users/m.noel/Desktop/lists-mateonoel2/list.h
 node.h
 /Users/m.noel/Desktop/lists-mateonoel2/node.h
 
-/Users/m.noel/Desktop/lists-mateonoel2/main.cpp
-iostream
--
-tester.h
-/Users/m.noel/Desktop/lists-mateonoel2/tester.h
-
-/Users/m.noel/Desktop/lists-mateonoel2/mocker.h
+/Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.h
 random
 -
 type_traits
@@ -52,23 +46,23 @@ type_traits
 
 /Users/m.noel/Desktop/lists-mateonoel2/node.h
 
-/Users/m.noel/Desktop/lists-mateonoel2/tester.cpp
+/Users/m.noel/Desktop/lists-mateonoel2/test/tester.cpp
 tester.h
-/Users/m.noel/Desktop/lists-mateonoel2/tester.h
+/Users/m.noel/Desktop/lists-mateonoel2/test/tester.h
 
-/Users/m.noel/Desktop/lists-mateonoel2/tester.h
+/Users/m.noel/Desktop/lists-mateonoel2/test/tester.h
 stdexcept
 -
 iostream
 -
 assert.h
 -
-mocker.h
-/Users/m.noel/Desktop/lists-mateonoel2/mocker.h
-forward.h
+../mock/mocker.h
+/Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.h
+../forward.h
 /Users/m.noel/Desktop/lists-mateonoel2/forward.h
-linked.h
+../linked.h
 /Users/m.noel/Desktop/lists-mateonoel2/linked.h
-circular.h
+../circular.h
 /Users/m.noel/Desktop/lists-mateonoel2/circular.h
 

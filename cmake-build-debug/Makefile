@@ -150,59 +150,59 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mocker.o: mocker.cpp.o
+mock/mocker.o: mock/mocker.cpp.o
 
-.PHONY : mocker.o
-
-# target to build an object file
-mocker.cpp.o:
-	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o
-.PHONY : mocker.cpp.o
-
-mocker.i: mocker.cpp.i
-
-.PHONY : mocker.i
-
-# target to preprocess a source file
-mocker.cpp.i:
-	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/mocker.cpp.i
-.PHONY : mocker.cpp.i
-
-mocker.s: mocker.cpp.s
-
-.PHONY : mocker.s
-
-# target to generate assembly for a file
-mocker.cpp.s:
-	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/mocker.cpp.s
-.PHONY : mocker.cpp.s
-
-tester.o: tester.cpp.o
-
-.PHONY : tester.o
+.PHONY : mock/mocker.o
 
 # target to build an object file
-tester.cpp.o:
-	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/tester.cpp.o
-.PHONY : tester.cpp.o
+mock/mocker.cpp.o:
+	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o
+.PHONY : mock/mocker.cpp.o
 
-tester.i: tester.cpp.i
+mock/mocker.i: mock/mocker.cpp.i
 
-.PHONY : tester.i
+.PHONY : mock/mocker.i
 
 # target to preprocess a source file
-tester.cpp.i:
-	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/tester.cpp.i
-.PHONY : tester.cpp.i
+mock/mocker.cpp.i:
+	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.i
+.PHONY : mock/mocker.cpp.i
 
-tester.s: tester.cpp.s
+mock/mocker.s: mock/mocker.cpp.s
 
-.PHONY : tester.s
+.PHONY : mock/mocker.s
 
 # target to generate assembly for a file
-tester.cpp.s:
-	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/tester.cpp.s
-.PHONY : tester.cpp.s
+mock/mocker.cpp.s:
+	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.s
+.PHONY : mock/mocker.cpp.s
+
+test/tester.o: test/tester.cpp.o
+
+.PHONY : test/tester.o
+
+# target to build an object file
+test/tester.cpp.o:
+	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o
+.PHONY : test/tester.cpp.o
+
+test/tester.i: test/tester.cpp.i
+
+.PHONY : test/tester.i
+
+# target to preprocess a source file
+test/tester.cpp.i:
+	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.i
+.PHONY : test/tester.cpp.i
+
+test/tester.s: test/tester.cpp.s
+
+.PHONY : test/tester.s
+
+# target to generate assembly for a file
+test/tester.cpp.s:
+	$(MAKE) -f CMakeFiles/lists-mateonoel2.dir/build.make CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.s
+.PHONY : test/tester.cpp.s
 
 # Help Target
 help:
@@ -216,12 +216,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mocker.o"
-	@echo "... mocker.i"
-	@echo "... mocker.s"
-	@echo "... tester.o"
-	@echo "... tester.i"
-	@echo "... tester.s"
+	@echo "... mock/mocker.o"
+	@echo "... mock/mocker.i"
+	@echo "... mock/mocker.s"
+	@echo "... test/tester.o"
+	@echo "... test/tester.i"
+	@echo "... test/tester.s"
 .PHONY : help
 
 

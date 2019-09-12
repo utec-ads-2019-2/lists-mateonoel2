@@ -2,7 +2,7 @@
 #define LINKED_H
 
 #include "list.h"
-#include "bidirectional_iterator.h"
+#include "iterators/bidirectional_iterator.h"
 
 template <typename T>
 class LinkedList : public List<T> {

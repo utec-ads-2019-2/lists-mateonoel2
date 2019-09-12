@@ -5,13 +5,17 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/m.noel/Desktop/lists-mateonoel2/main.cpp" "/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles/lists-mateonoel2.dir/main.cpp.o"
-  "/Users/m.noel/Desktop/lists-mateonoel2/mocker.cpp" "/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles/lists-mateonoel2.dir/mocker.cpp.o"
-  "/Users/m.noel/Desktop/lists-mateonoel2/tester.cpp" "/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles/lists-mateonoel2.dir/tester.cpp.o"
+  "/Users/m.noel/Desktop/lists-mateonoel2/mock/mocker.cpp" "/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles/lists-mateonoel2.dir/mock/mocker.cpp.o"
+  "/Users/m.noel/Desktop/lists-mateonoel2/test/tester.cpp" "/Users/m.noel/Desktop/lists-mateonoel2/cmake-build-debug/CMakeFiles/lists-mateonoel2.dir/test/tester.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../."
+  "../iterators"
+  "../mock"
+  "../test"
   )
 
 # Targets to which this target links.

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/m.noel/Desktop/lists-mateonoel2/. -I/Users/m.noel/Desktop/lists-mateonoel2/iterators -I/Users/m.noel/Desktop/lists-mateonoel2/mock -I/Users/m.noel/Desktop/lists-mateonoel2/test 
 
