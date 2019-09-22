@@ -72,6 +72,7 @@ class ForwardList : public List<T> {
         }
 
         T operator[](int index) {
+            // Caso negativo
             if(index < size()){
                 auto temp = this->head;
                 for(int i=0; i<index; i++){
@@ -112,6 +113,7 @@ class ForwardList : public List<T> {
         void reverse() {
             auto node1 = this->head;
             auto node2 = this->tail;
+            // Esto puede mejorarse
             for(int i = 0;i<size()/2;i++){
                 T Data_temp = node1->data;
                 node1->data = node2->data;

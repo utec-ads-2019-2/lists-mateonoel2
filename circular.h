@@ -9,10 +9,12 @@ class CircularLinkedList : public List<T> {
         CircularLinkedList() : List<T>() {}
 
         T front() {
+            // Caso vacío?
             return this->head->data;
         }
 
         T back() {
+            // Caso vacío?
             return this->head->prev->data;
         }
 

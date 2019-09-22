@@ -10,10 +10,12 @@ class LinkedList : public List<T> {
         LinkedList() : List<T>() {}
 
         T front() {
+            // Caso vacío?
             return this->head->data;
         }
 
         T back() {
+             // Caso vacío?
             return this->tail->data;
         }
 
@@ -66,6 +68,7 @@ class LinkedList : public List<T> {
         }
 
         T operator[](int index) {
+            // casos negativos
             if(index<size()){
                 auto temp = this->head;
                 for(int i=0; i<index; i++){
